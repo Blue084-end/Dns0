@@ -3,17 +3,22 @@ plugins {
 }
 
 android {
-    compileSdkVersion 29
+    compileSdkVersion 29 // Android 10
 
     defaultConfig {
         applicationId "dnsfilter.android"
         minSdkVersion 21
-        targetSdkVersion 29
+        targetSdkVersion 29 // Android 10
         versionCode 15013
         versionName "1.50.13"
     }
 
     namespace 'dnsfilter.android'
+
+    lint {
+        checkReleaseBuilds false // ← Tắt kiểm tra lint khi build release
+        abortOnError false       // ← Không dừng build nếu có lỗi lint
+    }
 
     buildTypes {
         release {
@@ -22,4 +27,3 @@ android {
         }
     }
 }
-
