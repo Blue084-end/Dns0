@@ -1,12 +1,16 @@
+plugins {
+    id 'com.android.application'
+}
+
 android {
-    compileSdkVersion 33 // Android 13
+    compileSdkVersion 33
 
     defaultConfig {
         applicationId "dnsfilter.android"
-        minSdkVersion 21         // Android 5.0 (tương thích rộng)
-        targetSdkVersion 33      // Android 13
-        versionCode 1
-        versionName "1.0"
+        minSdkVersion 21
+        targetSdkVersion 33
+        versionCode 15013
+        versionName "1.50.13"
     }
 
     namespace 'dnsfilter.android'
