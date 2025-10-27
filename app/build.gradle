@@ -1,17 +1,16 @@
-apply plugin: 'com.android.application'
-
 android {
-    compileSdkVersion 27
-    buildToolsVersion "27.0.3"
+    compileSdkVersion 33 // Android 13
 
     defaultConfig {
         applicationId "dnsfilter.android"
-        minSdkVersion 14
-        targetSdkVersion 14
+        minSdkVersion 21         // Android 5.0 (tương thích rộng)
+        targetSdkVersion 33      // Android 13
+        versionCode 1
+        versionName "1.0"
     }
 
+    namespace 'dnsfilter.android'
 
-    namespace 'com.example.dns0' // ← Thêm dòng này
     buildTypes {
         release {
             minifyEnabled false
@@ -19,6 +18,3 @@ android {
         }
     }
 }
-
-
-
