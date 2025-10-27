@@ -3,12 +3,12 @@ plugins {
 }
 
 android {
-    compileSdkVersion 33
+    compileSdkVersion 29
 
     defaultConfig {
         applicationId "dnsfilter.android"
         minSdkVersion 21
-        targetSdkVersion 33
+        targetSdkVersion 29
         versionCode 15013
         versionName "1.50.13"
     }
@@ -22,3 +22,4 @@ android {
         }
     }
 }
+
