@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+  <string name="app_name">FiltruDNS</string>
+  <string name="listenPortLabel">Port:</string>
+  <string name="startBtnLabel">Repornește</string>
+  <string name="stopBtnLabel">Închide</string>
+  <string name="filterReloadBtnLabel">Reîncarcă filtrul</string>
+  <string name="EnableConfigCheckBox">Setări avansate</string>
+  <string name="keepAwakeCheckBox">Împiedică intrarea în repaus a dispozitivului</string>
+  <string name="EnableAutoStart">Pornire automată</string>
+  <string name="EnableAdfilter">Activează blocarea reclamelor</string>
+  <string name="dnsLabel">DNS:</string>
+</resources>

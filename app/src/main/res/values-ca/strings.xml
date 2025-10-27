@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+  <string name="app_name">DNSfilter</string>
+  <string name="listenPortLabel">Port:</string>
+  <string name="startBtnLabel">Reiniciar</string>
+  <string name="stopBtnLabel">Tancar</string>
+  <string name="filterReloadBtnLabel">Filtre de recàrrega</string>
+  <string name="EnableConfigCheckBox">Configuració avançada</string>
+  <string name="keepAwakeCheckBox">Impedir Repòs del Dispositiu</string>
+  <string name="EnableAutoStart">Autoinici</string>
+  <string name="EnableAdfilter">Permetre blocatge d\'anunci</string>
+  <string name="dnsLabel">DNS:</string>
+</resources>

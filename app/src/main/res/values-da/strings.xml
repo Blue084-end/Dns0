@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+  <string name="app_name">DNSfilter</string>
+  <string name="listenPortLabel">Netværksport:</string>
+  <string name="startBtnLabel">Genstart</string>
+  <string name="stopBtnLabel">Luk</string>
+  <string name="filterReloadBtnLabel">Genindlæs filter</string>
+  <string name="EnableConfigCheckBox">Avancerede indstillinger</string>
+  <string name="keepAwakeCheckBox">Stop enheden i at gå i dvale</string>
+  <string name="EnableAutoStart">Automatisk start</string>
+  <string name="EnableAdfilter">Aktiver annonceblokering</string>
+  <string name="dnsLabel">DNS:</string>
+</resources>
