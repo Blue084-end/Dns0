@@ -10,6 +10,8 @@ android {
         targetSdkVersion 14
     }
 
+
+    namespace 'com.example.dns0' // ← Thêm dòng này
     buildTypes {
         release {
             minifyEnabled false
@@ -17,3 +19,6 @@ android {
         }
     }
 }
+
+
+
